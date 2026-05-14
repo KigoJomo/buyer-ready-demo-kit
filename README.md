@@ -2,6 +2,8 @@
 
 A zero-cost starter business by Kigo: templates and a done-for-you service for early B2B software teams that need sharper demos, discovery notes, and proposal one-pagers.
 
+Live site: https://buyer-ready.aqutte.co.ke
+
 ## Offer
 
 I turn rough product notes into a buyer-ready sales pack in 48 hours:

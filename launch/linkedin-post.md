@@ -15,6 +15,6 @@ The free kit includes:
 I am also offering a 48-hour done-for-you sprint where I turn rough product notes into a buyer-ready sales pack.
 
 Free kit and request form:
-https://github.com/KigoJomo/buyer-ready-demo-kit
+https://buyer-ready.aqutte.co.ke
 
 No GitHub account needed; you can also email me at kigojomo@gmail.com with the subject "Demo Kit Request".
