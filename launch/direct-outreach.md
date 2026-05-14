@@ -9,6 +9,8 @@ https://github.com/KigoJomo/buyer-ready-demo-kit
 
 If you have a client call coming up, I can do the 48-hour sprint for USD 75 or KES equivalent.
 
+You can reply here or email kigojomo@gmail.com with the subject "Demo Kit Request".
+
 ## Email
 
 Subject: Buyer-ready demo pack for [Company]

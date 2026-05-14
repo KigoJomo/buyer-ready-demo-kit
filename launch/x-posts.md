@@ -23,3 +23,5 @@ I turn them into a buyer-ready demo storyline, discovery bank, objection sheet, 
 
 Request here:
 https://github.com/KigoJomo/buyer-ready-demo-kit/issues/new?template=demo-kit-request.yml
+
+Or email: kigojomo@gmail.com

@@ -16,3 +16,5 @@ I am also offering a 48-hour done-for-you sprint where I turn rough product note
 
 Free kit and request form:
 https://github.com/KigoJomo/buyer-ready-demo-kit
+
+No GitHub account needed; you can also email me at kigojomo@gmail.com with the subject "Demo Kit Request".

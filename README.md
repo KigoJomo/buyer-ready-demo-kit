@@ -20,6 +20,8 @@ Use the templates in [`templates/`](templates/) to prepare your own sales pack. 
 
 [Start a demo kit request](https://github.com/KigoJomo/buyer-ready-demo-kit/issues/new?template=demo-kit-request.yml)
 
+No GitHub account? Email `kigojomo@gmail.com` with the subject `Demo Kit Request`.
+
 ## Who it is for
 
 - Seed-stage SaaS founders
