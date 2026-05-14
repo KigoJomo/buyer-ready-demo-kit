@@ -1,0 +1,68 @@
+name: Demo kit request
+description: Request a buyer-ready demo sprint from Kigo
+title: "Demo kit request: "
+labels: ["lead", "demo-kit-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the request. Do not share passwords, private customer data, or confidential documents here. If the project is a fit, I will reply with next steps and payment details.
+  - type: input
+    id: name
+    attributes:
+      label: Your name
+      placeholder: Jane Doe
+    validations:
+      required: true
+  - type: input
+    id: company
+    attributes:
+      label: Company or product
+      placeholder: Acme CRM
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Best contact email
+      placeholder: jane@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: product
+    attributes:
+      label: What does the product or service do?
+      placeholder: Briefly describe the product, target buyer, and main use case.
+    validations:
+      required: true
+  - type: textarea
+    id: buyer
+    attributes:
+      label: Who is the buyer?
+      placeholder: Role, industry, company size, region, and decision process if known.
+    validations:
+      required: true
+  - type: textarea
+    id: current_pitch
+    attributes:
+      label: Current pitch or demo notes
+      placeholder: Paste rough notes, links, or bullet points.
+    validations:
+      required: true
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: When do you need it?
+      options:
+        - Within 48 hours
+        - This week
+        - Flexible
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Confirmation
+      options:
+        - label: I understand this is a paid done-for-you service if Kigo accepts the request.
+          required: true
