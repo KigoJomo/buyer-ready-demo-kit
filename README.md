@@ -1,48 +1,37 @@
 # Buyer-Ready Demo Kit
 
-A zero-cost starter business by Kigo: templates and a done-for-you service for early B2B software teams that need sharper demos, discovery notes, and proposal one-pagers.
+Free Markdown templates for turning rough B2B product notes into a sales demo, plus the source for my small done-for-you demo service.
 
-Live site: https://buyer-ready.aqutte.co.ke
+[Open the site](https://buyer-ready.aqutte.co.ke)
 
-## Offer
+## The free kit
 
-I turn rough product notes into a buyer-ready sales pack in 48 hours:
+The [`templates`](templates) directory contains:
 
-- Discovery question bank
-- Demo storyline
-- Objection-handling sheet
-- One-page proposal draft
-- Follow-up email sequence
+- discovery questions
+- a demo storyline
+- an objection-handling sheet
+- a one-page proposal draft
+- a follow-up email sequence
 
-Starter price: USD 75 or KES equivalent for one product/use case. Payment is arranged after the intake is reviewed and accepted.
+There is a filled example in [`samples/sample-demo-kit.md`](samples/sample-demo-kit.md). Everything is plain Markdown, so you can copy it into Google Docs or edit it without buying another tool.
 
-## Free kit
+## The service
 
-Use the templates in [`templates/`](templates/) to prepare your own sales pack. If you want the done-for-you version, open a request:
+I use the same templates to prepare a sales pack for one product and buyer. The current starter price is USD 75, or the equivalent in Kenyan shillings. Turnaround is 48 hours after I accept the request and receive the source material.
 
-[Start a demo kit request](https://github.com/KigoJomo/buyer-ready-demo-kit/issues/new?template=demo-kit-request.yml)
+The useful inputs are a product description, the target buyer, the problem being sold, any current demo notes, and pricing if it exists.
 
-No GitHub account? Email `kigojomo@gmail.com` with the subject `Demo Kit Request`.
+[Open a request on GitHub](https://github.com/KigoJomo/buyer-ready-demo-kit/issues/new?template=demo-kit-request.yml) or email `hello@kigo.ke` with `Demo Kit Request` as the subject.
 
-## Who it is for
+## Run the site
 
-- Seed-stage SaaS founders
-- Small IT consultancies
-- Agencies pitching software projects
-- Product builders selling to SMEs or enterprise teams
+There is no build step. Open `index.html` directly or serve the directory with any static file server.
 
-## What I need from you
+```bash
+python -m http.server 8000
+```
 
-- Product description or website
-- Target buyer
-- Main pain point
-- Current pitch/demo notes
-- Any pricing or package notes
+The site deploys as static HTML with `vercel.json`.
 
-## Output format
-
-You get editable Markdown and Google Docs-ready copy. No locked-in tools.
-
-## Disclaimer
-
-This is an independent side project by Kigo and is not affiliated with any employer.
+This is an independent side project and is not affiliated with an employer.
